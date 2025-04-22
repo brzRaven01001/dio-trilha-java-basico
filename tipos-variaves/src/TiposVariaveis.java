@@ -6,5 +6,8 @@ public class TiposVariaveis  {
         int numeroNormal = numeroCurto;
         short numeroCurto2 = (short) numeroNormal; //Recurso cast, pego um tipo mais
         // abrangente e converte para um tipo mais específico no qual é o tipo correspondente.
+
+        // variásveis constanstes são definidar pela palavra reservada final.
+        final double VALOR_DE_PI = 3.14;
     }
 }
