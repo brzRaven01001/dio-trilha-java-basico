@@ -8,6 +8,11 @@
   Repositório de exemplos práticos desenvolvidos durante o curso de Java Básico da Digital Innovation One (DIO).
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge"/>
+</p>
+
 ---
 
 ## Organização do Repositório
