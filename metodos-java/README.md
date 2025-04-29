@@ -1,18 +1,39 @@
-## Getting Started
+# Java Client Registration System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a simple console-based Java program designed to register and manage client data using object-oriented programming concepts. It is ideal for beginners who want to practice working with classes, methods, lists, input validation, and user interaction via the terminal.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Register multiple clients with:
+  - Name
+  - CPF (Brazilian ID - must be 11 digits)
+  - Age (must be a non-negative number)
+- Input validation to prevent errors
+- Menu-driven system
+- List all registered clients
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java 17+
+- Scanner (for user input)
+- ArrayList (to store multiple clients)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## How it works
 
-## Dependency Management
+1. The program displays a menu with three options:  
+   - Register a new client  
+   - View all registered clients  
+   - Exit the program
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. When registering, the system checks if the CPF is exactly 11 digits and that the age is a valid number.
+
+3. Clients are stored in a list and can be displayed any time through the menu.
+
+## Example
+
+```bash
+===== Client Menu =====
+1. Register client
+2. View all clients
+3. Exit
+Choose an option:
